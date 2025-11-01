@@ -32,7 +32,7 @@ sudo systemctl restart nginx
 sudo dnf install certbot python3-certbot-nginx -y
 sudo certbot --nginx -d <your_site>
 ```
-```bash
 Check for automatic updates
+```bash
 sudo systemctl list-timers | grep certbot
 ```
