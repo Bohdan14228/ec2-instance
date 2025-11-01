@@ -25,3 +25,5 @@ sudo systemctl restart nginx
   - Routing: Simple
   - TTL: 300 (default)
   - Save record
+- Wait 10-30 min and you will see your site entering in browser: http://example.com
+
