@@ -27,3 +27,12 @@ sudo systemctl restart nginx
   - Save record
 - Wait 10-30 min and you will see your site entering in browser: http://example.com
 
+## Setup HTTPS
+```bash
+sudo dnf install certbot python3-certbot-nginx -y
+sudo certbot --nginx -d <your_site>
+```
+```bash
+Check for automatic updates
+sudo systemctl list-timers | grep certbot
+```
